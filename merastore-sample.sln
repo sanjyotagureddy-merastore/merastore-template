@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4CAFFE4-23B4-47D7-A574-8B1ED7823BC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CA258E9C-17FB-41E0-8BF3-8DA44A136843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Common", "src\MeraStore.Services.Sample.Common\MeraStore.Services.Sample.Common.csproj", "{F5287EBA-1691-42C6-A3FF-7F99A7AA322D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Api", "src\MeraStore.Services.Sample.Api\MeraStore.Services.Sample.Api.csproj", "{68C876BA-6EBD-4712-A028-2E223A182631}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Domain", "0. Domain", "{207FC616-AC50-44D8-A7B9-4FBBC121965D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Host", "1. Host", "{413AAE7C-0913-4DB5-93DD-8D2667EA3863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Domain", "src\MeraStore.Services.Sample.Domain\MeraStore.Services.Sample.Domain.csproj", "{329778F5-B77E-48ED-AE73-C3BBA93656E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Application", "2. Application", "{FEFFAD84-AB3B-4B2A-865A-92E9ABDB9A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Application", "src\MeraStore.Services.Sample.Application\MeraStore.Services.Sample.Application.csproj", "{CBA017B8-6EE6-45CE-87CC-E7B0B9098772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{4913C615-B781-48A0-8591-6EC994AB222A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Infrastructure", "src\MeraStore.Services.Sample.Infrastructure\MeraStore.Services.Sample.Infrastructure.csproj", "{7F7CD735-8065-4105-B2EA-C0681AD8D11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeraStore.Services.Sample.Api.Tests", "tests\MeraStore.Services.Sample.Api.Tests\MeraStore.Services.Sample.Api.Tests.csproj", "{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5287EBA-1691-42C6-A3FF-7F99A7AA322D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5287EBA-1691-42C6-A3FF-7F99A7AA322D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5287EBA-1691-42C6-A3FF-7F99A7AA322D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5287EBA-1691-42C6-A3FF-7F99A7AA322D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C876BA-6EBD-4712-A028-2E223A182631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C876BA-6EBD-4712-A028-2E223A182631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C876BA-6EBD-4712-A028-2E223A182631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C876BA-6EBD-4712-A028-2E223A182631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329778F5-B77E-48ED-AE73-C3BBA93656E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329778F5-B77E-48ED-AE73-C3BBA93656E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329778F5-B77E-48ED-AE73-C3BBA93656E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329778F5-B77E-48ED-AE73-C3BBA93656E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA017B8-6EE6-45CE-87CC-E7B0B9098772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA017B8-6EE6-45CE-87CC-E7B0B9098772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA017B8-6EE6-45CE-87CC-E7B0B9098772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA017B8-6EE6-45CE-87CC-E7B0B9098772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7CD735-8065-4105-B2EA-C0681AD8D11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7CD735-8065-4105-B2EA-C0681AD8D11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7CD735-8065-4105-B2EA-C0681AD8D11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7CD735-8065-4105-B2EA-C0681AD8D11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5287EBA-1691-42C6-A3FF-7F99A7AA322D} = {207FC616-AC50-44D8-A7B9-4FBBC121965D}
+		{68C876BA-6EBD-4712-A028-2E223A182631} = {413AAE7C-0913-4DB5-93DD-8D2667EA3863}
+		{207FC616-AC50-44D8-A7B9-4FBBC121965D} = {D4CAFFE4-23B4-47D7-A574-8B1ED7823BC0}
+		{413AAE7C-0913-4DB5-93DD-8D2667EA3863} = {D4CAFFE4-23B4-47D7-A574-8B1ED7823BC0}
+		{329778F5-B77E-48ED-AE73-C3BBA93656E6} = {207FC616-AC50-44D8-A7B9-4FBBC121965D}
+		{FEFFAD84-AB3B-4B2A-865A-92E9ABDB9A51} = {D4CAFFE4-23B4-47D7-A574-8B1ED7823BC0}
+		{CBA017B8-6EE6-45CE-87CC-E7B0B9098772} = {FEFFAD84-AB3B-4B2A-865A-92E9ABDB9A51}
+		{4913C615-B781-48A0-8591-6EC994AB222A} = {D4CAFFE4-23B4-47D7-A574-8B1ED7823BC0}
+		{7F7CD735-8065-4105-B2EA-C0681AD8D11F} = {4913C615-B781-48A0-8591-6EC994AB222A}
+		{2D967C87-A5ED-453B-BCA5-ADCBBFD3FA63} = {CA258E9C-17FB-41E0-8BF3-8DA44A136843}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEDFC71B-DDED-4396-9296-559D52C1BF3F}
+	EndGlobalSection
+EndGlobal

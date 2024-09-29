@@ -1,1 +1,1 @@
-# merastore-template
+# merastore-sample
